@@ -2,6 +2,9 @@ using System.Reflection;
 
 namespace NetStrata.TypescriptConvert;
 
+/// <summary>
+/// This converter to expect a C# object as input
+/// </summary>
 public class TsConverter
 {
     private class TsModel
